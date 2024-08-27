@@ -82,7 +82,7 @@ func TestSetAddress(t *testing.T) {
 	require.NotEmpty(t, id)
 	// set address
 	// обновите адрес, убедитесь в отсутствии ошибки
-	newAddress := "new test address"
+	newAddress := "тестируем адрес"
 	err = store.SetAddress(id, newAddress)
 	require.NoError(t, err)
 	// check
